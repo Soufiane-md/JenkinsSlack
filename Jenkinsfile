@@ -9,7 +9,7 @@ pipeline {
  }
  post{
   always{
-   slackSend channel: 'général", color: '#00ff00', message: 'Testing Jekins with Slack', tokenCredentialId: 'slack-id'
+   slackSend channel: 'exercice', color: '#00ff00', message: 'Testing Jekins with Slack', tokenCredentialId:'slack-id'
   }
  }
 }
