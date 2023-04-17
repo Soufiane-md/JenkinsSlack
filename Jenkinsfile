@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                // build your application here
+                 echo 'Hello World'
             }
         }
     }
